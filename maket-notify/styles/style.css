@@ -1,0 +1,340 @@
+@font-face {
+  font-family: "HelveticaRegular";
+  src: url("fonts/HelveticaNeue/RegularHelveticaNeue.eot?") format("eot"), url("fonts/HelveticaNeue/Regular/HelveticaNeue.woff") format("woff"), url("fonts/HelveticaNeue/Regular/HelveticaNeue.ttf") format("truetype"), url("fonts/HelveticaNeue/Regular/HelveticaNeue.svg") format("svg"); }
+@font-face {
+  font-family: "HelveticaMedium";
+  src: url("fonts/HelveticaNeue/Medium/HelveticaMedium.eot");
+  src: url("fonts/HelveticaNeue/Medium/HelveticaMedium.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue/Medium/HelveticaMedium.woff") format("woff"), url("fonts/HelveticaNeue/Medium/HelveticaMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaItalic";
+  src: url("fonts/HelveticaNeue/Italic/HelveticaItalic.eot");
+  src: url("fonts/HelveticaNeue/Italic/HelveticaItalic.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue/Italic/HelveticaItalic.woff") format("woff"), url("fonts/HelveticaNeue/Italic/HelveticaItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+body, .footer ul.footerNav a {
+  font: 16px HelveticaRegular;
+  color: #848484;
+  min-width: 1200px; }
+
+h2 {
+  font: 22px Raleway, sans-serif;
+  color: #222222;
+  font-weight: 600; }
+
+.topLine {
+  height: 10px;
+  background-color: #2ecc71; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 10px;
+  box-sizing: border-box; }
+
+.header {
+  height: 600px;
+  background: url("../image/headerBg.png") left top no-repeat;
+  background-size: cover; }
+  .header .container {
+    height: 100%;
+    justify-content: space-between; }
+
+.logoZone, .iphoneZone {
+  height: 100%;
+  width: 50%; }
+
+.logoZone {
+  padding: 140px 0 0 120px;
+  box-sizing: border-box; }
+  .logoZone .logo {
+    font: 60px Pacifico, cursive;
+    color: white;
+    letter-spacing: 2px; }
+  .logoZone .logo::after {
+    content: '.';
+    color: #2ecc71; }
+  .logoZone p {
+    font: 24px HelveticaMedium;
+    color: white;
+    line-height: 36px;
+    margin-top: 25px; }
+  .logoZone .linkContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    margin-top: 25px;
+    text-decoration: none; }
+    .logoZone .linkContainer a {
+      width: 50px;
+      height: 50px;
+      background-color: #030303;
+      border-radius: 50%;
+      opacity: 0.5;
+      position: relative; }
+    .logoZone .linkContainer a:nth-child(1)::before {
+      content: url("../image/appleIcon.png");
+      position: absolute;
+      top: 10px;
+      left: 14px; }
+    .logoZone .linkContainer a:nth-child(2)::before {
+      content: url("../image/androidIcon.png");
+      position: absolute;
+      top: 12px;
+      left: 13px; }
+    .logoZone .linkContainer a:nth-child(3)::before {
+      content: url("../image/windowIcon.png");
+      position: absolute;
+      top: 12px;
+      left: 10px; }
+    .logoZone .linkContainer a:hover {
+      background-color: #2ecc71;
+      opacity: 1;
+      transition: 0.4s; }
+
+.iphoneZone {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+  .iphoneZone div {
+    background: url("../image/iphoneHand.png") no-repeat;
+    height: 505px;
+    width: 435px; }
+
+.features {
+  background-color: white;
+  height: 335px; }
+  .features .container {
+    justify-content: space-between;
+    height: 100%; }
+    .features .container div {
+      height: 100%;
+      width: 320px;
+      text-align: center;
+      position: relative; }
+      .features .container div h2 {
+        margin: 25px 0 20px 0; }
+      .features .container div p {
+        line-height: 26px; }
+      .features .container div .featureImg {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #2ecc71;
+        margin: 60px auto 0 auto; }
+      .features .container div .editableTheme::before {
+        content: url("../image/editableImg.png");
+        position: absolute;
+        top: 29px;
+        left: 29px; }
+      .features .container div .flatDesign::before {
+        content: url("../image/flatDesignImg.png");
+        position: absolute;
+        top: 25px;
+        left: 25px; }
+      .features .container div .reachAudience::before {
+        content: url("../image/reachAudienceImg.png");
+        position: absolute;
+        top: 27px;
+        left: 27px; }
+
+.subscription {
+  height: 425px;
+  background-color: #e3e3e3; }
+  .subscription .container {
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 55px; }
+    .subscription .container .getNotified {
+      width: 50%;
+      height: 100%; }
+      .subscription .container .getNotified h2 {
+        margin-bottom: 25px; }
+      .subscription .container .getNotified p {
+        line-height: 26px;
+        width: 91%; }
+      .subscription .container .getNotified .subscriptionInput {
+        margin-top: 25px; }
+        .subscription .container .getNotified .subscriptionInput input {
+          border: 1px solid #c9c9c9;
+          border-top-left-radius: 15px;
+          border-bottom-left-radius: 15px;
+          outline: none;
+          font-size: 18px;
+          line-height: 23px;
+          padding-left: 25px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          width: 275px; }
+        .subscription .container .getNotified .subscriptionInput button {
+          height: 54px;
+          width: 140px;
+          background-color: #2ecc71;
+          border: none;
+          outline: none;
+          border-top-right-radius: 15px;
+          border-bottom-right-radius: 15px;
+          font: 22px Raleway, sans-serif;
+          font-weight: 700;
+          color: white;
+          position: relative;
+          top: 3px;
+          left: -4px; }
+        .subscription .container .getNotified .subscriptionInput button:hover {
+          cursor: pointer;
+          background-color: #0c9e4a;
+          transition: 0.4s; }
+    .subscription .container .video {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-end; }
+      .subscription .container .video div {
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 10px;
+        height: 281px; }
+
+.testimonials {
+  height: 465px; }
+  .testimonials .container {
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 55px; }
+  .testimonials p.italic {
+    font: 18px HelveticaItalic;
+    line-height: 30px;
+    width: 835px; }
+  .testimonials p.italic::after {
+    content: "Jane Hunt";
+    font-family: Raleway, sans-serif;
+    color: #222222;
+    font-weight: 700;
+    position: relative;
+    top: 15px;
+    left: calc(50% - 50px); }
+  .testimonials .testimonialsPhoto {
+    margin: 40px 0 0 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .testimonials .testimonialsPhoto div {
+      position: relative; }
+    .testimonials .testimonialsPhoto .firstTestimony::before {
+      content: '';
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,1+14,1+14,0.83+29,0.83+29,0+100 */
+      /* FF3.6-15 */
+      /* Chrome10-25,Safari5.1-6 */
+      background: -webkit-linear-gradient(left, white 0%, white 14%, rgba(255, 255, 255, 0.83) 29%, rgba(255, 255, 255, 0) 100%);
+      background: -o-linear-gradient(left, white 0%, white 14%, rgba(255, 255, 255, 0.83) 29%, rgba(255, 255, 255, 0) 100%);
+      background: linear-gradient(to right, white 0%, white 14%, rgba(255, 255, 255, 0.83) 29%, rgba(255, 255, 255, 0) 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+      /* IE6-9 */ }
+    .testimonials .testimonialsPhoto .lastTestimony::before {
+      content: '';
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,0.83+71,1+86,1+86,1+100,1+100 */
+      /* FF3.6-15 */
+      /* Chrome10-25,Safari5.1-6 */
+      background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.83) 71%, white 86%, white 100%);
+      background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.83) 71%, white 86%, white 100%);
+      background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.83) 71%, white 86%, white 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 );
+      /* IE6-9 */ }
+    .testimonials .testimonialsPhoto .photoOverlay {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: #2ecc71;
+      opacity: 0; }
+    .testimonials .testimonialsPhoto div:hover {
+      cursor: pointer; }
+      .testimonials .testimonialsPhoto div:hover .photoOverlay {
+        opacity: 0.6;
+        transition: 0.4s; }
+  .testimonials h2 {
+    margin: 50px 0 25px 0; }
+  .testimonials ul.social {
+    margin-top: 25px;
+    width: 270px;
+    display: flex;
+    justify-content: space-between; }
+    .testimonials ul.social li {
+      width: 34px;
+      height: 34px;
+      background-color: #2ecc71;
+      filter: grayscale(100%);
+      opacity: 0.4;
+      border-radius: 50%; }
+      .testimonials ul.social li a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        position: relative; }
+      .testimonials ul.social li a.twitter::before {
+        content: url("../image/twitterSocial.png");
+        position: absolute;
+        left: 9px;
+        top: 9px; }
+      .testimonials ul.social li a.facebook::before {
+        content: url("../image/facebookSocial.png");
+        position: absolute;
+        left: 12px;
+        top: 8px; }
+      .testimonials ul.social li a.pinterest::before {
+        content: url("../image/pinterestSocial.png");
+        position: absolute;
+        left: 7px;
+        top: 7px; }
+      .testimonials ul.social li a.google::before {
+        content: url("../image/googleSocial.png");
+        position: absolute;
+        left: 9px;
+        top: 9px; }
+      .testimonials ul.social li a.linkedin::before {
+        content: url("../image/linkedinSocial.png");
+        position: absolute;
+        left: 10px;
+        top: 8px; }
+      .testimonials ul.social li a.youtube::before {
+        content: url("../image/youtubeSocial.png");
+        position: absolute;
+        left: 8px;
+        top: 5px; }
+    .testimonials ul.social li:hover {
+      filter: none;
+      opacity: 1;
+      transition: 0.4s; }
+
+.footer {
+  height: 130px;
+  background-color: #e3e3e3;
+  display: flex;
+  justify-content: center; }
+  .footer ul.footerNav {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .footer ul.footerNav a {
+      text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

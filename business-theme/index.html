@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Business Theme</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="styles/reset.css" type="text/css">
+	<link rel="stylesheet" href="styles/style.css" type="text/css">
+	<link rel="stylesheet" href="styles/font-awesome.css" type="text/css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo"></div>
+			<div class="nav">
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="#">service</a></li>
+					<li><a href="#">about us</a></li>
+					<li><a href="#">pricing table</a></li>
+					<li><a href="#">how it work</a></li>
+					<li><a href="#">happy clients</a></li>
+					<li><a href="#">contact us</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="slider">
+		<h2>boost up your local business</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum typesetting</p>
+		<div class="container request">
+			<div class="form_input"><i class="fa fa-user fa-lg user_icon" aria-hidden="true"></i><span><input type="text" placeholder="Full Name"></span></div>
+			<div class="form_input"><i class="fa fa-envelope" aria-hidden="true"></i><span><input type="text" placeholder="Email Address"></span></div>
+			<div class="form_input"><i class="fa fa-phone phone_icon" aria-hidden="true"></i><span><input type="text" placeholder="Phone Number"></span></div>
+			<button class="request_btn">request a quote</button>
+		</div>
+		<div class="laptop">
+			<div class="laptop_slide_zone">
+				<div class="laptop_slides laptop_slide_1" id="slide_1"></div>
+				<div class="laptop_slides laptop_slide_2" id="slide_2"></div>
+				<div class="laptop_slides laptop_slide_3" id="slide_3"></div>
+			</div>
+		</div>
+		<<!-- div class="pagination"><button onclick="userChoice(1)"></button>
+		<button class="pagi_btn_2" onclick="userChoice(2)"></button>
+		<button onclick="userChoice(3)"></button></div> -->
+		<div class="pagination"><button onclick="switchSlide_1();" id="slider_btn_1"></button>
+		<button class="pagi_btn_2" onclick="switchSlide_2();" id="slider_btn_2"></button>
+		<button onclick="switchSlide_3();" id="slider_btn_3"></button></div>
+	</div>
+	<div class="services_header">
+		<h2>our services</h2>
+		<p>Lorem Ipsum is simply dummy Business industry.</p>
+	</div>
+	<div class="container services_content">
+		<div class="services_blocks">
+			<div class="services_icon_zone">
+				<i class="fa fa-clock-o" aria-hidden="true"></i>
+			</div>
+			<div class="services_blocks_text">
+			<h3>font-awesome icons</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting ind
+			ustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+			</div>
+		</div>
+		<div class="services_blocks">
+			<div class="services_icon_zone icon_zone_wider">
+				<i class="fa fa-cog" aria-hidden="true"></i>
+			</div>
+			<div class="services_blocks_text">
+				<h3>fully responsive design</h3>
+				<p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</p>
+			</div>
+		</div>
+		<div class="services_blocks">
+			<div class="services_icon_zone">
+				<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+			</div>
+			<div class="services_blocks_text">
+				<h3>working contact form</h3>
+				<p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</p>
+			</div>
+		</div>
+		<div class="services_blocks">
+			<div class="services_icon_zone icon_zone_wider">
+				<i class="fa fa-rocket" aria-hidden="true"></i>
+			</div>
+			<div class="services_blocks_text">
+				<h3>retina ready icons here</h3>
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
+				or randomised words which don't look even slightly believable.</p>
+			</div>
+		</div>
+		<div class="services_blocks">
+			<div class="services_icon_zone">
+				<i class="fa fa-renren" aria-hidden="true"></i>
+			</div>
+			<div class="services_blocks_text">
+				<h3>friendly code</h3>
+				<p>Finibus Bonorum et Malorum" by Cicero are also reproduced in their 
+				exact original form, accompanied by English versions from the 1914 translation by H. Rackham</p>
+			</div>
+		</div>
+		<div class="services_blocks">
+			<div class="services_icon_zone icon_zone_wider">
+				<i class="fa fa-usd" aria-hidden="true"></i>
+			</div>
+			<div class="services_blocks_text">
+				<h3>flat trendy landing page design</h3>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting ind
+				ustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+			</div>
+		</div>
+	</div>
+	<div class="about_us">
+		<div class="about_us_blocks about_us_img"></div>
+		<div class="about_us_blocks">
+			<h2>about us</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the ore recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+			<button>read more</button>
+		</div>
+	</div>
+	<div class="choose_price">
+		<div class="services_header choose_price_header">
+			<h2>choose your price</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing typesetting</p>
+		</div>
+		<div class="container plans_container">
+			<div class="plans_blocks basic_plan">
+				<h5>basic plan</h5>
+				<div class="price_tag">
+				<span>$</span>22
+				<div class="price_tag_per_month">per month</div>
+				</div>
+				<p>1 account</p>
+				<p>8 hour support</p>
+				<p>custom cloud services</p>
+				<button class="cta_btn">get started</button>
+			</div>
+			<div class="plans_blocks premium_plan chosen_plan">
+				<h5>premium plan</h5>
+				<div class="price_tag">
+				<span>$</span>42
+				<div class="price_tag_per_month">per month</div>
+				</div>
+				<p>2 accounts</p>
+				<p>100mb storage</p>
+				<p>custom cloud services</p>
+				<button class="cta_btn">get started</button>
+			</div>
+			<div class="plans_blocks gold_plan">
+				<h5>gold plan</h5>
+				<div class="price_tag">
+				<span>$</span>62
+				<div class="price_tag_per_month">per month</div>
+				</div>
+				<p>8 accounts</p>
+				<p>24 hour support</p>
+				<p>custom cloud services</p>
+				<button class="cta_btn">get started</button>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="services_header how_works_header">
+			<h2>how it works</h2>
+			<p>Lorem Ipsum is simply dummy Business industry.</p>
+		</div>
+		<div class="how_works_block_container">
+			<div class="how_works_blocks">
+				<div class="how_works_iconzone">
+					<i class="fa fa-headphones" aria-hidden="true"></i>
+				</div>
+				<div class="how_works_steps">step 1</div>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting ind
+				ustry. Lorem Ipsum has been</p>
+			</div>
+			<div class="how_works_blocks">
+				<div class="how_works_iconzone">
+					<i class="fa fa-unlock-alt" aria-hidden="true"></i>
+				</div>
+				<div class="how_works_steps">step 2</div>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting ind
+				ustry. Lorem Ipsum has been</p>
+			</div>
+			<div class="how_works_blocks">
+				<div class="how_works_iconzone">
+					<i class="fa fa-cloud-upload" aria-hidden="true"></i>
+				</div>
+				<div class="how_works_steps">step 3</div>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting ind
+				ustry. Lorem Ipsum has been</p>
+			</div>
+			<div class="how_works_blocks">
+				<div class="how_works_iconzone">
+					<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+				</div>
+				<div class="how_works_steps">step 4</div>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting ind
+				ustry. Lorem Ipsum has been</p>
+			</div>
+		</div>
+		<button class="cta_btn how_works_cta_btn">get start now</button>
+	</div>
+	<div class="happy_clients">
+		<div class="services_header happy_clients_header">
+			<h2>happy clients</h2>
+			<p>We are explain who is using our business solutions</p>
+		</div>
+		<div class="happy_clients_container container">
+			<div class="happy_clients_cards">
+				<img src="img/happy_client_1.png" alt="Darwin Michle, Project Manager">
+				<div class="happy_clients_cards_text">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+ 					it to make.</p>
+ 					<span class="happy_client_name">Darwin Michle</span><span class="happy_client_job">, Project manager</span>
+ 				</div>
+			</div>
+			<div class="happy_clients_cards">
+				<img src="img/happy_client_2.png" alt="Madam Elisabath, Creative Director">
+				<div class="happy_clients_cards_text">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+				 	it to make.</p>
+				 	<span class="happy_client_name">Madam Elisabath</span><span class="happy_client_job">, Creative Director</span>
+				 </div>
+			</div>
+			<div class="happy_clients_cards">
+				<img src="img/happy_client_3.png" alt="Clips Arter, Lipsum Directer">
+				<div class="happy_clients_cards_text">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+ 					it to make.</p>
+ 					<span class="happy_client_name">Clips Arter</span><span class="happy_client_job">, Lipsum Directer</span>
+ 				</div>
+			</div>
+			<div class="happy_clients_cards">
+				<img src="img/happy_client_4.png" alt="Zam Cristafr, Manager">
+				<div class="happy_clients_cards_text">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+ 					it to make.</p>
+ 					<span class="happy_client_name">Zam Cristafr</span><span class="happy_client_job">, Lipsum Directer</span>
+ 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="newsletter_prefooter">
+		<div class="services_header newsletter_header">
+			<h2>newsletter</h2>
+			<p>Lorem Ipsum is simply dummy Business industry</p>
+		</div>
+		<div class="newsletter_container">	
+			<div class="request newsletter_request">
+				<div class="form_input newsletter_name"><i class="fa fa-user fa-lg user_icon" aria-hidden="true"></i><span><input type="text" placeholder="Name"></span></div>
+				<div class="form_input newsletter_email"><i class="fa fa-envelope" aria-hidden="true"></i><span><input type="text" placeholder="Email Address"></span></div>
+				<button class="request_btn">subscribe now</button>
+				</div>
+		</div>
+		<div class="container dotted_map">
+			<div class="address_cloud">
+				<h5>address</h5>
+				<p>
+					Business street
+					Second north section
+					Bavani nagar. 88769
+					Call : +987-9976-999
+				</p>
+				<a href="#">info@businessface.com</a>
+			</div>
+			<div class="logo prefooter_logo"></div>s
+		</div>
+	</div> 
+	<div class="container footer_container">
+		<footer>
+			<div class="nav footer_nav">
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="#">service</a></li>
+					<li><a href="#">about us</a></li>
+					<li><a href="#">pricing table</a></li>
+					<li><a href="#">how it work</a></li>
+					<li><a href="#">happy clients</a></li>
+					<li><a href="#">contact us</a></li>
+				</ul>
+			</div>
+			<div class="footer_phone_num">
+				<i class="fa fa-phone phone_icon" aria-hidden="true"></i>
+				+987 9976 999
+			</div>
+			<div class="footer_social">
+				<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			</div>
+		</footer>
+	</div>
+	<div class="bottom_afterfooter">
+		<p>All contents © copyright 2014 Business Theme. All rights reserved Designed by : akhilwebfolio</p>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+{
+    "menCoats" : [{
+                "name": "Sherlock Holmes Coat",
+                "image": "images/coat1.jpg",
+                "price": "€ 89.95"                
+            },
+            {
+                "name": "Style Boss Coat",
+                "image": "images/coat2.jpg",
+                "price": "€ 99.95"
+            },
+            {
+                "name": "Alaska Newbie Coat",
+                "image": "images/coat3.jpg",
+                "price": "€ 79.95"
+            },
+            {
+                "name": "Hipster Coat",
+                "image": "images/coat4.jpg",
+                "price": "€ 99.95"
+            }],
+    "menJeans" : [{
+                "name": "Ripped Hipster Jeans",
+                "image": "images/jeans1.jpg",
+                "price": "€ 49.95"                
+            },
+            {
+                "name": "SoonToBeDirty Jeans",
+                "image": "images/jeans2.jpg",
+                "price": "€ 39.95"
+            },
+            {
+                "name": "Cucumber Jeans",
+                "image": "images/jeans3.jpg",
+                "price": "€ 67.95"
+            },
+            {
+                "name": "Trump Supporter Jeans",
+                "image": "images/jeans4.jpg",
+                "price": "€ 32.95"
+            }],
+    "menShirts" : [{
+                "name": "Angry Farmer Shirt",
+                "image": "images/shirt1.jpg",
+                "price": "€ 22.95"                
+            },
+            {
+                "name": "Colorblind Developer Shirt",
+                "image": "images/shirt2.jpg",
+                "price": "€ 19.95"
+            },
+            {
+                "name": "Retired Cop Shirt",
+                "image": "images/shirt3.jpg",
+                "price": "€ 24.95"
+            },
+            {
+                "name": "Lame Nerd Shirt",
+                "image": "images/shirt4.jpg",
+                "price": "€ 15.95"
+            }],
+    "womenActiveWear" : [{
+            "name": "IActuallyRun Hoodie",
+            "image": "images/activeFem1.jpg",
+            "price": "€ 27.95"                
+        },
+        {
+            "name": "Catwalk Sport Top",
+            "image": "images/activeFem2.jpg",
+            "price": "€ 38.95"
+        },
+        {
+            "name": "Russian Maika Top",
+            "image": "images/activeFem3.jpg",
+            "price": "€ 24.95"
+        },
+        {
+            "name": "Nothing Fancy Top",
+            "image": "images/activeFem4.jpg",
+            "price": "€ 15.95"
+        }],
+    "womenWinterWear" : [{
+            "name": "Ripped Weird Sweater",
+            "image": "images/winterFem1.jpg",
+            "price": "€ 17.95"                
+        },
+        {
+            "name": "Japanese Schoolgirl Sweater",
+            "image": "images/winterFem2.jpg",
+            "price": "€ 24.95"
+        },
+        {
+            "name": "Bossy Boss Cardigan",
+            "image": "images/winterFem3.jpg",
+            "price": "€ 35.95"
+        },
+        {
+            "name": "Hipster 2K16 Top",
+            "image": "images/winterFem4.jpg",
+            "price": "€ 39.95"
+        }],
+    "womenShoes" : [{
+            "name": "Latino Walk Heels",
+            "image": "images/shoesFem1.jpg",
+            "price": "€ 69.95"                
+        },
+        {
+            "name": "30-something Heels",
+            "image": "images/shoesFem2.jpg",
+            "price": "€ 86.95"
+        },
+        {
+            "name": "French Teacher Shoes",
+            "image": "images/shoesFem3.jpg",
+            "price": "€ 65.95"
+        },
+        {
+            "name": "Hipster 2K16 Shoes",
+            "image": "images/shoesFem4.jpg",
+            "price": "€ 119.95"
+        }],
+    "kidsFemTops" : [{
+            "name": "NYC Life Jersey",
+            "image": "images/kidsFemTop1.jpg",
+            "price": "€ 29.95"                
+        },
+        {
+            "name": "Smartest Student Shirt",
+            "image": "images/kidsFemTop2.jpg",
+            "price": "€ 26.95"
+        },
+        {
+            "name": "Street Schemes Jacket",
+            "image": "images/kidsFemTop3.jpg",
+            "price": "€ 35.95"
+        },
+        {
+            "name": "LA Sport Jersey",
+            "image": "images/kidsFemTop4.jpg",
+            "price": "€ 29.95"
+        }],
+    "kidsMaleTops" : [{
+            "name": "BaDumTss Jersey",
+            "image": "images/kidsMaleTop1.jpg",
+            "price": "€ 28.95"                
+        },
+        {
+            "name": "DaStreetz Hoodie",
+            "image": "images/kidsMaleTop2.jpg",
+            "price": "€ 35.95"
+        },
+        {
+            "name": "2007isBack Jersey",
+            "image": "images/kidsMaleTop3.jpg",
+            "price": "€ 21.95"
+        },
+        {
+            "name": "Sk8 M8 Jersey",
+            "image": "images/kidsMaleTop4.jpg",
+            "price": "€ 28.95"
+        }],
+    "kidsMixJeans" : [{
+            "name": "UpToDate F Jeans",
+            "image": "images/kidsFemJeans1.jpg",
+            "price": "€ 58.95"                
+        },
+        {
+            "name": "JustOk F Jeans",
+            "image": "images/kidsFemJeans2.jpg",
+            "price": "€ 55.95"
+        },
+        {
+            "name": "Regular M Jeans",
+            "image": "images/kidsMaleJeans1.jpg",
+            "price": "€ 41.95"
+        },
+        {
+            "name": "NotReallyOk M Jeans",
+            "image": "images/kidsMaleJeans2.jpg",
+            "price": "€ 38.95"
+        }],
+    "soonFemaleDresses" : [{
+            "name": "100% Hipster Dress",
+            "image": "images/soonFem1.jpg",
+            "price": "€ 66.95"                
+        },
+        {
+            "name": "Gypsy Princess Dress",
+            "image": "images/soonFem2.jpg",
+            "price": "€ 59.95"
+        },
+        {
+            "name": "Medieaval Silver Dress",
+            "image": "images/soonFem3.jpg",
+            "price": "€ 88.95"
+        },
+        {
+            "name": "Psychologist Dress",
+            "image": "images/soonFem4.jpg",
+            "price": "€ 79.95"
+        }],
+    "soonFemaleSkirts" : [{
+            "name": "Ethnic Stripe Skirt",
+            "image": "images/skirt1.jpg",
+            "price": "€ 33.95"                
+        },
+        {
+            "name": "Almost Star Skirt",
+            "image": "images/skirt2.jpg",
+            "price": "€ 29.95"
+        },
+        {
+            "name": "Work'n'Party Skirt",
+            "image": "images/skirt3.jpg",
+            "price": "€ 29.95"
+        },
+        {
+            "name": "Slavic Attack Skirt",
+            "image": "images/skirt4.jpg",
+            "price": "€ 49.95"
+        }],
+    "soonMaleTops" : [{
+            "name": "Friendzone Guy Jumper",
+            "image": "images/soonMale1.jpg",
+            "price": "€ 29.95"                
+        },
+        {
+            "name": "Serious Dude Cardigan",
+            "image": "images/soonMale2.jpg",
+            "price": "€ 54.95"
+        },
+        {
+            "name": "Rich Kid Pullover",
+            "image": "images/soonMale3.jpg",
+            "price": "€ 69.95"
+        },
+        {
+            "name": "Street King Hoodie",
+            "image": "images/soonMale4.jpg",
+            "price": "€ 49.95"
+        }]
+}

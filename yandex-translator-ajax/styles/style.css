@@ -1,0 +1,66 @@
+		body {
+			background-color: #78BBE6;
+		}
+		.translatorWrapper, .inputWrapper > textarea, .langSelect, .translateButton {
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 14px;
+			border-radius: 15px;
+			border: 2px solid #FF895D;
+			background-color: #D5EEFF;
+			outline: none;
+		}
+		.translatorWrapper {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-content: center;
+			align-items: flex-start;
+			width: 900px;
+			margin: 50px auto 0 auto;
+			padding: 50px 40px;
+			border-radius: 10px;
+			background-color: #D5EEFF;
+		}
+		.inputWrapper {
+			display: flex;
+			flex-direction: column;
+			width: 350px;
+			height: 250px;
+		}
+		.inputWrapper textarea {
+			height: 100%;
+			resize: none;
+			padding: 10px;
+			color: #1B435D;
+		}
+		.inputWrapper textarea::-webkit-input-placeholder{
+			color: #FF895D;
+		}
+		.langSelect {
+			height: 40px;
+			margin-bottom: 15px;
+			background-color: transparent;
+			color: #D5EEFF;
+			font-weight: bold;
+			text-transform: uppercase;
+			background-color: #FF895D;
+			padding-left: 10px;
+		}
+		.translateButton {
+			height: 40px;
+			width: 100px;
+			align-self: center;
+			background-color: transparent;
+			border-radius: 20px;
+			font-size: 12px;
+			color: #FF895D;
+			font-weight: bold;
+			text-transform: uppercase;
+			border: 3px solid #FF895D;
+		}
+		.translateButton:hover {
+			cursor: pointer;
+			background-color: #FF895D;
+			color: #D5EEFF;
+			transition: 0.5s;
+		}
