@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 
-gulp.task('default', [ 'styles']);
+gulp.task('default', ['styles', 'images']);
 
 
 // SASS
@@ -18,6 +18,14 @@ gulp.task('styles', function () {
     .pipe(gulp.dest('./css/'))
     .pipe(connect.reload())
 });
+
+const imagemin = require('gulp-imagemin');
+ 
+gulp.task('images', () =>
+    gulp.src('./img/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('./images'))
+);
 
 // Watch
 
