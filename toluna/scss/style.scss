@@ -48,7 +48,7 @@ h1, h2 {
 	width: 7.5vw;
 	height: auto;
 	position: absolute;
-	top: 400px;
+	top: 375px;
 	left: 0;
 	img {
 		width: 100%;
@@ -58,7 +58,7 @@ h1, h2 {
 	width: 4.9vw;
 	height: auto;
 	position: absolute;
-	top: 400px;
+	top: 375px;
 	right: 0;
 	img {
 		width: 100%;
@@ -191,6 +191,10 @@ h1, h2 {
 	color: #fff;
 	transition: 0.4s;
 	filter: brightness(125%);
+}
+.cta-btn:active {
+	text-decoration: none;
+	color: #fff;
 }
 
 .showcase-block {
